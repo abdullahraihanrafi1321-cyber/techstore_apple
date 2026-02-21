@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Store</title>
+  <link rel="shortcut icon" href="resources/favicon.jfif" type="image/jfif">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header class="py-[70px] px-0">
+    <div class="flex gap-[40px] mx-auto w-max items-end">
+      <h2 class="text-5xl font-bold leading-none bg-gradient-to-br from-blue-700 to-fuchsia-400 text-transparent bg-clip-text">
+        Recent Products
+      </h2>
+      <div class="w-[120px] h-[40px] bg-black rounded-full flex justify-center items-center shadow-[0_4px_6px_rgba(107,114,128,0.5)]">
+        <p class="text-xl font-medium text-white">3 ITEMS</p>
+      </div>
+    </div>
+  </header>
+  <main class="max-w-[90vw] flex mx-auto">
+  <div class="p-[30px] bg-gray-300 rounded-tl-[10px] rounded-bl-[10px] w-[50%] shadow-[0_4px_6px_rgba(107,114,128,0.5)]">
+    <div class="flex flex-col gap-[30px]">
+      <div class="flex flex-col gap-[20px]">
+        <div class="flex gap-[20px]">
+          <div class="w-[25%] h-[170px] bg-white flex justify-center items-center rounded-[10px] shadow-[0_4px_6px_rgba(107,114,128,0.5)]">
+            <img src="resources/Gold@2x.png" alt="iphonegold">
+          </div>
+          <div class="h-[170px] flex flex-col justify-between w-[75%]">
+            <div class="flex flex-col gap-[8px]">
+              <div class="flex justify-between">
+                <h3 class="text-base font-bold bg-black bg-clip-text text-transparent">iPhone 12 Pro</h3>
+                <h3 class="text-base font-bold bg-black bg-clip-text text-transparent">$999.00</h3>
+              </div>
+              <p class="text-base bg-gray-600 bg-clip-text text-transparent">Golden</p>
+            </div>
+            <div class="flex justify-between">
+              <p class="text-base bg-gray-600 bg-clip-text text-transparent">x1</p>
+              <p class="text-base bg-gray-600 bg-clip-text text-transparent">×</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex gap-[20px]">
+          <div class="w-[25%] h-[170px] bg-white flex justify-center items-center rounded-[10px] shadow-[0_4px_6px_rgba(107,114,128,0.5)]">
+            <img src="resources/Apple-watchx2.png" alt="iphonegold">
+          </div>
+          <div class="h-[170px] flex flex-col justify-between w-[75%]">
+            <div class="flex flex-col gap-[8px]">
+              <div class="flex justify-between">
+                <h3 class="text-base font-bold bg-black bg-clip-text text-transparent">Apple Watch</h3>
+                <h3 class="text-base font-bold bg-black bg-clip-text text-transparent">$399.00</h3>
+              </div>
+              <p class="text-base bg-gray-600 bg-clip-text text-transparent">Blue</p>
+            </div>
+            <div class="flex justify-between">
+              <p class="text-base bg-gray-600 bg-clip-text text-transparent">x1</p>
+              <p class="text-base bg-gray-600 bg-clip-text text-transparent">×</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex gap-[20px]">
+          <div class="w-[25%] h-[170px] bg-white flex justify-center items-center rounded-[10px] shadow-[0_4px_6px_rgba(107,114,128,0.5)]">
+            <img src="resources/iMac@2x.png" alt="iphonegold">
+          </div>
+          <div class="h-[170px] flex flex-col justify-between w-[75%]">
+            <div class="flex flex-col gap-[8px]">
+              <div class="flex justify-between">
+                <h3 class="text-base font-bold bg-black bg-clip-text text-transparent">iMac</h3>
+                <h3 class="text-base font-bold bg-black bg-clip-text text-transparent">$1199.00</h3>
+              </div>
+              <p class="text-base bg-gray-600 bg-clip-text text-transparent">Green</p>
+            </div>
+            <div class="flex justify-between">
+              <p class="text-base bg-gray-600 bg-clip-text text-transparent">x1</p>
+              <p class="text-base bg-gray-600 bg-clip-text text-transparent">×</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-gray-500">
+      <div class="flex gap-[10px]">
+        <input type="text" name="couponcode" id="couponcode" placeholder="Enter coupon code" class="h-[45px] w-[70%] px-[15px] rounded-[10px] shadow-[0_4px_6px_rgba(107,114,128,0.5)]">
+        <button type="submit" class="h-[45px] w-[30%] bg-black text-white text-center text-base font-medium rounded-[10px] shadow-[0_4px_6px_rgba(107,114,128,0.5)]">Apply Coupon</button>
+      </div>
+      <div class="flex flex-col gap-[5px]">
+        <div class="flex justify-between">
+          <p class="text-base font-bold text-gray-600">Sub total</p>
+          <p class="text-base font-bold text-gray-600">$2597.00</p>
+        </div>
+        <div class="flex justify-between">
+          <p class="text-base font-bold text-gray-600">Tax</p>
+          <p class="text-base font-bold text-gray-600">$623.28</p>
+        </div>
+        <div class="flex justify-between">
+          <p class="text-base font-bold text-black">Total</p>
+          <p class="text-base font-bold text-black">$3220.28</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-[50%] bg-white p-[30px] bg-gray-300 rounded-tr-[10px] rounded-br-[10px] shadow-[0_4px_6px_rgba(107,114,128,0.5)] flex flex-col gap-[80px]">
+      <h3 class="text-xl font-bold text-black">Contact Information</h3>
+      <div class="flex flex-col gap-[35px]">
+        <div class="flex flex-col gap-[5px]">
+          <p class="font-semibold text-base text-gray-600">First & Last Name</p>
+          <input type="text" name="Name" id="Name" placeholder="Enter first and last name" class="w-[100%] h-[60px] px-[15px] shadow-[0_4px_6px_rgba(107,114,128,0.5)] rounded-[10px] bg-gray-100">
+        </div>
+        <div class="flex flex-col gap-[5px]">
+          <p class="font-semibold text-base text-gray-600">First & Last Name</p>
+          <input type="text" name="Name" id="Name" placeholder="Enter first and last name" class="w-[100%] h-[60px] px-[15px] shadow-[0_4px_6px_rgba(107,114,128,0.5)] rounded-[10px] bg-gray-100">
+        </div>
+        <div class="flex gap-[20px] w[100%]">
+          <div class="flex flex-col gap-[5px] w-[50%]">
+            <label class="font-semibold text-base text-gray-600" for="country">Select Country</label>
+            <select id="country" class="h-[60px] px-[15px] shadow-[0_4px_6px_rgba(107,114,128,0.5)] rounded-[10px] bg-gray-100 font-medium text-base text-gray-600">
+              <option value="" selected disabled>-- Choose Country --</option>
+              <option value="BD">Bangladesh</option>
+              <option value="Canada">Canada</option>
+              <option value="UK">UK</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="flex flex-col gap-[5px] w-[50%]">
+            <p class="font-semibold text-base text-gray-600">Postal Code</p>
+            <input type="number" name="postalcode" id="postalcode" placeholder="00270" class="w-[100%] h-[60px] px-[15px] shadow-[0_4px_6px_rgba(107,114,128,0.5)] rounded-[10px] bg-gray-100 font-medium text-base text-gray-600 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none [&::-moz-appearance]:textfield">
+          </div>
+        </div>
+        <button type="submit" class="w-[100%] font-semibold text-xl bg-black text-white h-[60px] rounded-[10px] shadow-[0_4px_6px_rgba(107,114,128,0.5)]">Continue</button>
+      </div>
+  </div>
+  </main>
+</body>
+</html>
